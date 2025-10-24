@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+img {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(10, 31, 68, 0.7);
+}
+
+.foto-descricao {
+  margin: 20px;
+}
+
+.foto-descricao img {
+  height: 240px;
+  width: 240px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 15px #0a1f44;
+  margin-bottom: 15px;
+}
+
+main {
+  background-color: #e6f0ff;
+  color: #0a1f44;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px 0;
+  gap: 40px;
+}
+
+header {
+  background-color: #0a1f44;
+  text-align: center;
+  padding: 25px 0;
+}
+
+a {
+  color: #e6f0ff;
+  padding: 10px 15px;
+  font-size: larger;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #66a3ff;
+}
+
+footer {
+  background-color: #0a1f44;
+  color: #e6f0ff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+img {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 10%;
+  margin: 5px;
+}
+
+.imagens-tec,
+.imagens-fs,
+.imagens-jogos,
+.imagens-esportes {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+h1,
+h2,
+h3 {
+  padding: 10px;
+}
+
+p {
+  margin: 8px 0;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+h3 {
+  font-size: 25px;
+  margin: 10px;
+}
+
+.projetos img {
+  height: 200px;
+  width: 200px;
+}
